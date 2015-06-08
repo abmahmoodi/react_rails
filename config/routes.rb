@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'auth/index'
+
+  devise_for :users
   resources :records
   #root 'records#index'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -37,3 +37,5 @@ group :development, :test do
 end
 
 gem 'react-rails', '~> 1.0'
+gem 'devise'
+gem 'thin', group: :development
